@@ -1,0 +1,9 @@
+
+/**Main content ratio**/
+main{
+    flex: 0 1 60%;
+}
+
+Aside{
+    flex: 0 1 40%;
+}

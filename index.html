@@ -18,6 +18,7 @@
         </script>
 
         <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="homelayout.css">
 
         <title>Tone's Detailing</title>
         <meta charset="UTF-8">
@@ -27,65 +28,69 @@
         <meta name="viewport" content="width=device-width, initia-scale=1.0">
 
         <style>
-
-           body{background-color: rgb(165, 188, 205) ;}
+           body{background-color: rgb(74, 138, 187) ;}
         </style>
 
     </head>
-
-
-
-    <body>
-<section>
-    <img src="Images/t0n3.png" alt="Tones Detailing" style="width: 10%;">
-</section>
+        <link rel="icon" type="image/x-icon" href="Images/t0n3.png">
         <header>
+                <img src="Images/t0n3.png" alt="Tones Detailing" style=width:18%;>
             <nav>
-                <ol>
-                    <a href=index.html>Home</a>
-                    <a href=aboutUs.html>About</a>
-                    <a href=services.html>Services</a>
-                    <a href="contact.html">Contact</a>
-                </ol>
+                <li>
+                    <a class="nav" href=index.html>Home</a>
+                    <a class="nav" href=aboutUs.html>About</a>
+                    <a class="nav" href=services.html>Services</a>
+                    <a class="nav" href="contact.html">Contact</a>
+                </li>
             </nav>
         </header>
-        <hr style="height: 5px;">
+
+    <body>
+        <main>
         <section>
-            <h2>-About Me-</h2>
-            <h4>My name is Antonio Kee and I am a student at the University of South Carolina. I am studying Integreated Informaiton Technology in hopes of gaining a IT job after I graduate. Growing up I have always been into cars, it is something my dad got me interested in and we have shared this same intrest since. Growing up I used to help him clean his cars which overtime led to me doing it for him. Now I have invested some time and money into my own supplies and started my own small buisness. This is something I take pride in and really enjoy. With that being said I am gald you took interest into visiting my site and hope we can provide you the service of your choice because at Tone's Detailing a car is more than just a ride!</h4>
+            <div id="text1"><h3>-About Me-</h3></div>
+            <img id="pfp" src="Images/basic pfp.png" alt="basic profile pic" style="width: 10%;">
+            <div id="text2">
+                <h4>My name is Antonio Kee and I am a student at the University of South Carolina. I am studying Integreated Informaiton Technology in hopes of gaining a IT job after I graduate. Growing up I have always been into cars, it is something my dad got me interested in and we have shared this same intrest since. Growing up I used to help him clean his cars which overtime led to me doing it for him. Now I have invested some time and money into my own supplies and started my own small buisness. This is something I take pride in and really enjoy. With that being said I am gald you took interest into visiting my site and hope we can provide you the service of your choice because at Tone's Detailing a car is more than just a ride!</h4>
+            </div>
         </section>
+        </main>
+
+        <hr style="height: 2px;">
+
         <!---->
-        <section>
-            <img src="Images/basic pfp.png" alt="basic profile pic" width="150">
-            <p>My name is Antonio and I am a college student at the University
-                of South Carolina studying Integrated Information Technology. 
-                I first found interest in detailing when I was a kid helping my dad
-                detail his cars. Overtime he taught me better techniques along 
-                with showing me proper tools and chemicals to use to bring 
-                cars back to their original state. This interest grew with me and 
-                led me to creating my own small business where I work to bring 
-                peoples cars to a clean state. </p>
-        </section>
-        <hr style="height: 15px;">
-        <section>
             <ol>
-                <img src="Images/hand wash.jpg" alt="Hand Wash" width="250"> <p>Hand Wash</p>
-                <img src="Images/clay bar.jpg" alt="Clay Bar and Wax" width="250"> <p>Clay Bar and Wax</p>
-                <img src="Images/interior cleaning.webp" alt="Interior Cleaning" width="250"> <p>Interior Cleaning</p>
+                <div class="row">
+                    <div class="column">
+                        <img src="Images/hand wash.jpg" alt="Hand Wash" width="100%"> <p id="handwash">Hand Wash</p>
+                    </div>
+                    <div class="column">
+                        <img src="Images/clay bar.jpg" alt="Clay Bar and Wax" width="100%"> <p id="cbw">Clay Bar and Wax</p>
+                    </div>
+                    <div class="column">
+                        <img src="Images/interior cleaning.webp" alt="Interior Cleaning" width="100%"> <p id="interior">Interior Cleaning</p>
+                    </div>
+                </div>
+                
             </ol>
-        </section>
-        <hr style="height: 5px;">
-        <section>
-            <h3>At Tone's Detailing my goal is to have an relaxed
-                environment where customers and car enthusiasts 
-                can come and get their cars detailed the right way!</h3>
-                <img src="Images/t0n3.png" alt="Tones Detailing" width="200">
-        </section>
-        <hr style="height: 5px;">
+
+        <hr style="height: 2px;">
+
+        <aside>
+            <section>
+                <h4 id="ms">At Tone's Detailing my goal is to have an relaxed
+                    environment where customers and car enthusiasts 
+                    can come and get their cars detailed the right way!</h4>
+            </section>
+            <img id="tdi" src="Images/t0n3.png" alt="Tones Detailing" width="200">
+        </aside>
+
+        <hr style="height: 2px;">
+
         <footer>
-            <ol>
+            <ol class="footer">
                 (839)***-****       
-                <a href="mailto:tonesdetailing@outlook.com">tonesdetailing@outlook.com</a>
+                <a id="email" href="mailto:tonesdetailing@outlook.com">tonesdetailing@outlook.com</a>
                 BOOK NOW!
             </ol>
         </footer>

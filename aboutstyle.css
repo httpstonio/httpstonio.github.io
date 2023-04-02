@@ -4,7 +4,7 @@ p {
 }
 
 /**Tones Detailing Main Logo at the top**/
-body header img {
+header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,12 +45,6 @@ h3{
     color: aliceblue;
 }
 
-/**Photos of services**/
-div img{
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /**About Me Text**/
 h4{
     text-align: center;
@@ -58,11 +52,10 @@ h4{
     font-family: arial;
     font-weight: bold;
     color: aliceblue;
-
 }
 
 /**Profile Pic**/
-#pfp{
+#cashapp{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -71,54 +64,40 @@ h4{
 
 /**Keeps images within row div class in same row**/
 .row{
+    text-align: center;
     display: flex;
 }
 /**Each image has its own separate column with padding to keep them separated**/
 .column{
-    flex: 35%;
+    flex: 33.33%;
     padding: 5%;
 }
 
-/**handwash img and text**/
-#handwash{
+/**instagram img and text**/
+#ig{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;
 }
 
-/**claybar and wax img and text**/
-#cbw{
+/**facebook img and text**/
+#fb{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
-    font-family: Arial;
-}
+    font-family: Arial;}
 
-
-/**interior img and text**/
-#interior{
+/**snapchat img and text**/
+#sc{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
-    font-family: Arial;
-}
+    font-family: Arial;}
 
-/**mission statement**/
-#ms{
-    text-align: center;
-    font-family: arial;
-    font-weight: bold;
-}
-
-#tdi{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /**footer**/
 .footer{

@@ -1,8 +1,3 @@
-p {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /**Tones Detailing Main Logo at the top**/
 body header img {
     display: block;
@@ -30,94 +25,52 @@ nav li{
     padding: 15px 15px;
     text-decoration: none;
 }
-
 /**Navigation bar hover color**/
 .nav:hover{
     background-color: rgba(255, 255, 255, 0.904) ;
     color:black
 }
 
-
-/**About Me Text**/
-h3{
+/**text**/
+p {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: arial;
     color: aliceblue;
+    font-weight: bold;
 }
 
-/**Photos of services**/
-div img{
-    margin-left: auto;
-    margin-right: auto;
+/**form**/
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
-/**About Me Text**/
-h4{
+
+
+/**book appt header**/
+#header{
     text-align: center;
-    display: block;
+    color: aliceblue;
+    font-weight: bold;
     font-family: arial;
-    font-weight: bold;
+
+}
+
+/**form labels**/
+#label{
     color: aliceblue;
-
-}
-
-/**Profile Pic**/
-#pfp{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2%;
-}
-
-/**Keeps images within row div class in same row**/
-.row{
-    display: flex;
-}
-/**Each image has its own separate column with padding to keep them separated**/
-.column{
-    flex: 35%;
-    padding: 5%;
-}
-
-/**handwash img and text**/
-#handwash{
-    text-align: center;
-    color: aliceblue;
-    font-size: medium;
     font-weight: bold;
-    font-family: Arial;
-}
-
-/**claybar and wax img and text**/
-#cbw{
-    text-align: center;
-    color: aliceblue;
-    font-size: medium;
-    font-weight: bold;
-    font-family: Arial;
-}
-
-
-/**interior img and text**/
-#interior{
-    text-align: center;
-    color: aliceblue;
-    font-size: medium;
-    font-weight: bold;
-    font-family: Arial;
-}
-
-/**mission statement**/
-#ms{
-    text-align: center;
     font-family: arial;
-    font-weight: bold;
 }
 
-#tdi{
+/**Group of text through out page**/
+section{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4%;
 }
 
 /**footer**/

@@ -37,36 +37,24 @@ nav li{
     color:black
 }
 
+/**Group of text through out page**/
+section{
+    display: block;
+    margin: 4%;
+}
 
-/**About Me Text**/
-h3{
+h1{
     text-align: center;
-    font-family: arial;
     color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial; 
 }
 
 /**Photos of services**/
-div img{
+section div img{
     margin-left: auto;
     margin-right: auto;
-}
-
-/**About Me Text**/
-h4{
-    text-align: center;
-    display: block;
-    font-family: arial;
-    font-weight: bold;
-    color: aliceblue;
-
-}
-
-/**Profile Pic**/
-#pfp{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2%;
 }
 
 /**Keeps images within row div class in same row**/
@@ -75,12 +63,22 @@ h4{
 }
 /**Each image has its own separate column with padding to keep them separated**/
 .column{
-    flex: 35%;
+    flex: 25%;
     padding: 5%;
 }
 
-/**handwash img and text**/
-#handwash{
+/**Keeps images within row div class in same row**/
+.row1{
+    display: flex;
+}
+/**Each image has its own separate column with padding to keep them separated**/
+.column1{
+    flex: 33.33%;
+    padding: 5%;
+}
+
+/**foam wash img and text**/
+#fw{
     text-align: center;
     color: aliceblue;
     font-size: medium;
@@ -88,37 +86,37 @@ h4{
     font-family: Arial;
 }
 
-/**claybar and wax img and text**/
-#cbw{
+/**interior detail img and text**/
+#id{
     text-align: center;
     color: aliceblue;
     font-size: medium;
     font-weight: bold;
-    font-family: Arial;
-}
+    font-family: Arial;}
 
-
-/**interior img and text**/
-#interior{
+/**deep wheel cleaning img and text**/
+#dwc{
     text-align: center;
     color: aliceblue;
     font-size: medium;
     font-weight: bold;
-    font-family: Arial;
-}
+    font-family: Arial;}
 
-/**mission statement**/
-#ms{
+/**clay bar img and text**/
+#cb{
     text-align: center;
-    font-family: arial;
+    color: aliceblue;
+    font-size: medium;
     font-weight: bold;
-}
+    font-family: Arial;}
 
-#tdi{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+/**waxing img and text**/
+#w{
+    text-align: center;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;}
 
 /**footer**/
 .footer{
@@ -128,7 +126,15 @@ h4{
     color: aliceblue;
     font-family: arial;
     font-weight: bold;
-    padding: 0.5%;
+    padding: 1%;
 }
 
+table, tr, th{
+    border: 1px solid;
+    border-color: white;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 

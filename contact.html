@@ -13,55 +13,63 @@
             gtag('config', 'G-PNVM0S68RB');
         </script>
 
+        <link rel="stylesheet" href="contactstyle.css">
+
+
         <title>Tone's Detailing</title>
         <meta charset="UTF-8">
+        <meta name="description" content="Contact page">
+        <meta name="keywords" content="contact, contact info, tones detailing, appointment">
+        <meta name="author" content="Antonio Kee">
+        <meta name="viewport" content="width=device-width, initia-scale=1.0">
+        
         <style>
-
-           body{background-color: rgb(122, 126, 189) ;}
+            body{background-color: rgb(74, 138, 187) ;}
         </style>
 
     </head>
 
+    <link rel="icon" type="image/x-icon" href="Images/t0n3.png">
+
+
     <body>
-<section>
-    <img src="Images/t0n3.png" alt="Tones Detailing" width="200">
-</section>
         <header>
-            <nav>
-                <ol>
-                    <a href=index.html>Home</a>
-                    <a href=aboutUs.html>About</a>
-                    <a href=services.html>Services</a>
-                    <a href="contact.html">Contact</a>
-                </ol>
+            <img src="Images/t0n3.png" alt="Tones Detailing" style=width:18%;>
+
+            <nav >
+                <li>
+                    <a class="nav" href=index.html>Home</a>
+                    <a class="nav" href=aboutUs.html>About</a>
+                    <a class="nav" href=services.html>Services</a>
+                    <a class="nav" href=contact.html>Contact</a>
+                </li>
             </nav>
         </header>
-        <hr style="height: 5px;">
         <!---->
         <section>
             <p>Phone: (839)***-****</p>
             <p>Email: tonesdetailing@outlook.com</p>
-            <img src="Images/t0n3.png" alt="tones detailing logo" width="150">
+            <img id="tdi" src="Images/t0n3.png" alt="tones detailing logo" width="170px">
+
         </section>
 
-        <hr style="height: 5px;">
 
-        <section>
-            <h2>Book an Appointment Today!</h2>
+        <section class="ba">
+            <h2 id="header">Book an Appointment Today!</h2>
                 <form action="contact.html" method="post">
-                    <label for="name">Name:</label>
+                    <label id="label" for="name">Name:</label>
                     <input type="text" id="name" name="name">
 
-                    <label for="email">Email:</label>
+                    <label id="label" for="email">Email:</label>
                     <input type="text" id="email" name="email">
 
-                    <label for="phonenum">Phone Number:</label>
+                    <label id="label" for="phonenum">Phone Number:</label>
                     <input type="text" id="phonenum" name="phonenum">
 
-                    <label for="vehicle">Vehicle(year, make, and model):</label>
+                    <label id="label" for="vehicle">Vehicle(year, make, and model):</label>
                     <input type="text" id="vehicle" name="vehicle">
 
-                    <label for="service">Service of Choice:</label>
+                    <label id="label" for="service">Service of Choice:</label>
                     <input type="text" id="service" name="service">
 
                     <input type="submit" value="Submit">
@@ -72,7 +80,7 @@
         <hr style="height: 5px;">
 
         <footer>
-            <ol>
+            <ol class="footer">
                 (839)***-****       
                 <a href="mailto:tonesdetailing@outlook.com">tonesdetailing@outlook.com</a>
                 BOOK NOW!
