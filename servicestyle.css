@@ -18,13 +18,13 @@ nav li{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(98, 140, 160);
+    background-color: #205883;
 }
 
 /**Navigation bar text**/
 .nav {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     font-size: large;
     padding: 15px 15px;
@@ -45,7 +45,7 @@ section{
 
 h1{
     text-align: center;
-    color: white;
+    color: black;
     font-size: x-large;
     font-weight: bold;
     font-family: Arial; 
@@ -80,7 +80,7 @@ section div img{
 /**foam wash img and text**/
 #fw{
     text-align: center;
-    color: white;
+    color: black;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;
@@ -89,7 +89,7 @@ section div img{
 /**interior detail img and text**/
 #id{
     text-align: center;
-    color: white;
+    color: black;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -97,7 +97,7 @@ section div img{
 /**deep wheel cleaning img and text**/
 #dwc{
     text-align: center;
-    color: white;
+    color: black;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -105,7 +105,7 @@ section div img{
 /**clay bar img and text**/
 #cb{
     text-align: center;
-    color: white;
+    color: black;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -113,7 +113,7 @@ section div img{
 /**waxing img and text**/
 #w{
     text-align: center;
-    color: white;
+    color: black;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -123,7 +123,7 @@ section div img{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: white;
+    color: black;
     font-family: arial;
     font-weight: bold;
     padding: 1%;
@@ -131,8 +131,8 @@ section div img{
 
 table, tr, th{
     border: 1px solid;
-    border-color: white;
-    color: white;
+    border-color: black;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

@@ -13,13 +13,13 @@ nav li{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(98, 140, 160);
+    background-color: #205883;
 }
 
 /**Navigation bar text**/
 .nav {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     font-size: large;
     padding: 15px 15px;
@@ -37,7 +37,7 @@ p {
     margin-right: auto;
     text-align: center;
     font-family: arial;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ input[type=text]{
 /**book appt header**/
 #header{
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: arial;
 
@@ -62,7 +62,7 @@ input[type=text]{
 
 /**form labels**/
 #label{
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: arial;
 }
@@ -78,7 +78,7 @@ section{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: white;
+    color: black;
     font-family: arial;
     font-weight: bold;
     padding: 0.5%;
