@@ -1,10 +1,4 @@
-main{
-    flex: 0 1 60%;
-}
 
-aside{
-    flex: 0 1 40%;
-}
 p {
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +19,7 @@ nav li{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(98, 140, 160);
+    background-color: rgb(58, 82, 94);
 }
 
 /**Navigation bar text**/
@@ -49,7 +43,7 @@ nav li{
 h3{
     text-align: center;
     font-family: arial;
-    color: aliceblue;
+    color: white;
 }
 
 /**Photos of services**/
@@ -64,7 +58,7 @@ h4{
     display: block;
     font-family: arial;
     font-weight: bold;
-    color: aliceblue;
+    color: white;
 
 }
 
@@ -89,7 +83,7 @@ h4{
 /**handwash img and text**/
 #handwash{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;
@@ -98,7 +92,7 @@ h4{
 /**claybar and wax img and text**/
 #cbw{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;
@@ -108,7 +102,7 @@ h4{
 /**interior img and text**/
 #interior{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;
@@ -132,7 +126,7 @@ h4{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-family: arial;
     font-weight: bold;
     padding: 0.5%;

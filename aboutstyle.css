@@ -42,7 +42,7 @@ nav li{
 h3{
     text-align: center;
     font-family: arial;
-    color: aliceblue;
+    color: white;
 }
 
 /**About Me Text**/
@@ -51,7 +51,7 @@ h4{
     display: block;
     font-family: arial;
     font-weight: bold;
-    color: aliceblue;
+    color: white;
 }
 
 /**Profile Pic**/
@@ -104,7 +104,7 @@ h4{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-family: arial;
     font-weight: bold;
     padding: 0.5%;

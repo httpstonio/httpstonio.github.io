@@ -45,7 +45,7 @@ section{
 
 h1{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: x-large;
     font-weight: bold;
     font-family: Arial; 
@@ -80,7 +80,7 @@ section div img{
 /**foam wash img and text**/
 #fw{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;
@@ -89,7 +89,7 @@ section div img{
 /**interior detail img and text**/
 #id{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -97,7 +97,7 @@ section div img{
 /**deep wheel cleaning img and text**/
 #dwc{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -105,7 +105,7 @@ section div img{
 /**clay bar img and text**/
 #cb{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -113,7 +113,7 @@ section div img{
 /**waxing img and text**/
 #w{
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
     font-family: Arial;}
@@ -123,7 +123,7 @@ section div img{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    color: aliceblue;
+    color: white;
     font-family: arial;
     font-weight: bold;
     padding: 1%;
@@ -132,7 +132,7 @@ section div img{
 table, tr, th{
     border: 1px solid;
     border-color: white;
-    color: aliceblue;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
