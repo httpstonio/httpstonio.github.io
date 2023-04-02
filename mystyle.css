@@ -136,3 +136,242 @@ h4{
 }
 
 
+
+
+
+
+
+
+
+
+/**About Page**/
+
+
+/**About Me Text**/
+h3{
+    text-align: center;
+    font-family: arial;
+    color: black;
+}
+
+/**About Me Text**/
+h4{
+    text-align: center;
+    display: block;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+}
+
+/**Profile Pic**/
+#cashapp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+/**Keeps images within row div class in same row**/
+.row{
+    text-align: center;
+    display: flex;
+}
+/**Each image has its own separate column with padding to keep them separated**/
+.column{
+    flex: 33.33%;
+    padding: 5%;
+}
+
+/**instagram img and text**/
+#ig{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+/**facebook img and text**/
+#fb{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+/**snapchat img and text**/
+#sc{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**Service Page**/
+
+
+/**Group of text through out page**/
+section{
+    display: block;
+    margin: 4%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial; 
+}
+
+/**Photos of services**/
+section div img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**Keeps images within row div class in same row**/
+.row{
+    display: flex;
+}
+/**Each image has its own separate column with padding to keep them separated**/
+.column{
+    flex: 25%;
+    padding: 5%;
+}
+
+/**Keeps images within row div class in same row**/
+.row1{
+    display: flex;
+}
+/**Each image has its own separate column with padding to keep them separated**/
+.column1{
+    flex: 33.33%;
+    padding: 5%;
+}
+
+/**foam wash img and text**/
+#fw{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+/**interior detail img and text**/
+#id{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;}
+
+/**deep wheel cleaning img and text**/
+#dwc{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;}
+
+/**clay bar img and text**/
+#cb{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;}
+
+/**waxing img and text**/
+#w{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+table, tr, th{
+    border: 1px solid;
+    border-color: black;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**Contact Page**/
+
+
+/**text**/
+p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: arial;
+    color: black;
+    font-weight: bold;
+}
+
+/**form**/
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+/**book appt header**/
+#header{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+
+}
+
+/**form labels**/
+#label{
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+}
+
+/**Group of text through out page**/
+section{
+    display: block;
+    margin: 4%;
+}
+
+
+
+
+
+
+
