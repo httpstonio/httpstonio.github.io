@@ -245,6 +245,8 @@ section div img{
 /**Keeps images within row div class in same row**/
 .row{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 /**Each image has its own separate column with padding to keep them separated**/
 .column{
@@ -255,6 +257,8 @@ section div img{
 /**Keeps images within row div class in same row**/
 .row1{
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 /**Each image has its own separate column with padding to keep them separated**/
 .column1{
